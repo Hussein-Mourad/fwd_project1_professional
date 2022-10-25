@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/egfwd/professional embedded/payment/paymentapp/paymentapp/card.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f3e87a174e765ec49dc629d14830ea3455907feef3bf0892fe679340783e7e36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/egfwd/professional embedded/payment/paymentapp/paymentapp/card.h"
+          },
+          "hashes": {
+            "sha-256": "31b87424e3387b5047e33558fffcf4e992d0cb082c5b60b4f3dd906d845e58d9"
+          }
+        }
+      ]
+    }
+  ]
+}

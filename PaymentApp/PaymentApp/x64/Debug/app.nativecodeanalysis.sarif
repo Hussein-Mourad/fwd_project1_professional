@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/egfwd/professional embedded/payment/paymentapp/paymentapp/app.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "04ab9f44d676da1cda3719fc028afa5594c181a4b9fc4af8da1ce8055bd1aa7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/egfwd/professional embedded/payment/paymentapp/paymentapp/app.h"
+          },
+          "hashes": {
+            "sha-256": "2410fbee6122ceb7d4e3e691313b1620abe604974114aa3e1af7e21c9dd8951d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/egfwd/professional embedded/payment/paymentapp/paymentapp/card.h"
+          },
+          "hashes": {
+            "sha-256": "31b87424e3387b5047e33558fffcf4e992d0cb082c5b60b4f3dd906d845e58d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/egfwd/professional embedded/payment/paymentapp/paymentapp/terminal.h"
+          },
+          "hashes": {
+            "sha-256": "fe2ab93f74e4e4f261210008f65790c159d3c08a45800267f948460a15ea9c8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/egfwd/professional embedded/payment/paymentapp/paymentapp/server.h"
+          },
+          "hashes": {
+            "sha-256": "aadda4369e6cefb75fc55753418e36c99b5386ebe70463bdce11705039758c20"
+          }
+        }
+      ]
+    }
+  ]
+}
