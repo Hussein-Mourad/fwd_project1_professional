@@ -16,45 +16,45 @@
     <Filter Include="Application">
       <UniqueIdentifier>{fd47ff77-079d-4309-9788-5983d8076972}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Terminal">
-      <UniqueIdentifier>{e1c724d8-dc49-4964-990f-12bb005bb97e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Server">
       <UniqueIdentifier>{fe0b0b97-9ce2-4324-9037-e77b67379db1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Card">
       <UniqueIdentifier>{89d7598e-d082-470e-b3c5-0a3820dda2b5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Terminal">
+      <UniqueIdentifier>{084afac6-a418-4fdd-86c5-f05c82803367}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="card.c">
-      <Filter>Card</Filter>
+    <ClCompile Include="Server\server.c">
+      <Filter>Server</Filter>
     </ClCompile>
-    <ClCompile Include="app.c">
-      <Filter>Application</Filter>
-    </ClCompile>
-    <ClCompile Include="terminal.c">
+    <ClCompile Include="Terminal\terminal.c">
       <Filter>Terminal</Filter>
     </ClCompile>
-    <ClCompile Include="server.c">
-      <Filter>Server</Filter>
+    <ClCompile Include="Application\app.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\card.c">
+      <Filter>Card</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="card.h">
-      <Filter>Card</Filter>
+    <ClInclude Include="Server\server.h">
+      <Filter>Server</Filter>
     </ClInclude>
-    <ClInclude Include="app.h">
-      <Filter>Application</Filter>
-    </ClInclude>
-    <ClInclude Include="terminal.h">
+    <ClInclude Include="Terminal\terminal.h">
       <Filter>Terminal</Filter>
     </ClInclude>
-    <ClInclude Include="server.h">
-      <Filter>Server</Filter>
+    <ClInclude Include="Application\app.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Card\card.h">
+      <Filter>Card</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
